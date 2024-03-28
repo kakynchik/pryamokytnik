@@ -97,3 +97,52 @@ int main() {
 }
 //avramabil
 */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Ayto
+{
+private:
+	string brand;
+	string model;
+	int year;
+	double obv;
+
+public:
+
+	Ayto(int year, string brand, string model, double obv) : year(year), brand(brand), model(model), obv(obv)
+	{
+	}
+
+	void displayinfo() {
+		cout << "marka: " << brand << endl;
+		cout << "model: " << model << endl;
+		cout << "rik vipusky: " << year << endl;
+		cout << "obyem dvigyna: " << obv << endl;
+	}
+};
+
+int main() {
+
+	int year;
+	string brand;
+	string model;
+	double obv;
+
+	cout << "Vvedit rik: ";
+	cin >> year;
+	cout << "Vvedit marku ta model: ";
+	cin >> brand >> model;
+	cout << "Vvedit obyem dviguna: ";
+	cin >> obv;
+
+	Ayto car(year, brand, model, obv);
+
+	cout << "Infa pro mashinu: " << endl;
+	car.displayinfo();
+
+	return 0;
+}

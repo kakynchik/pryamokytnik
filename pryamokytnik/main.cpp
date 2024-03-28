@@ -1,3 +1,66 @@
+/*
+
+
+
+//imya1 
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+	int a;
+	cout << "vvedit imya: ";
+	cin >> a;
+	cout << "vitayu" << endl;
+}
+
+
+//reverse3
+
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+
+int main() {
+	string str1;
+	cin >> str1;
+	int i;
+	reverse(str1.begin(), str1.end());
+
+	cout << str1;
+}
+
+
+// vik2
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int a;
+	cout << "napishit vash vik: ";
+	cin >> a;
+	if (a > 100) {
+		cout << "vi mertvi";
+	}
+	else {
+		if (a >= 18) {
+			cout << "vi povnolitni";
+		}
+		else {
+			cout << "vi ne povnolitni";
+		}
+		if (a > 100) {
+			cout << "vi mertvi";
+		}
+	}
+}
+
+//pryamokytnik4
+
 #include <iostream>
 using namespace std;
 
@@ -32,3 +95,5 @@ int main() {
 	cout << "Perimetr pryamokytnika " << rect.calculatePerimetr() << endl;
 	
 }
+//avramabil
+*/
